@@ -1,1 +1,1 @@
-//import translateEngToMorse from "./javascript/translateEngToMorse";
+import { translateEngToMorse } from "./javascript/translateEngToMorse.js";

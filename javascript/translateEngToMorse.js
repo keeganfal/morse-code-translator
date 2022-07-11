@@ -1,4 +1,4 @@
-import { morseCodeDict } from './morseCode.js';
+import { morseCodeDict } from "./morseCode.js";
 
 export const translateEngToMorse = (englishStr) => {
     let morseStr = englishStr;

@@ -15,3 +15,6 @@
   justify-items: center;
   height: 60vh;
 }
+.main__grid-container .main__form {
+  display: grid;
+}

@@ -1,3 +1,4 @@
 export const translateEngToMorse = (englishStr) => {
-    return MorseStr;
+    let morseStr = englishStr;
+    return morseStr;
 };

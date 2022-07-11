@@ -2,7 +2,7 @@ import { morseCodeDict } from "./morseCode.js";
 
 const morseInput = document.querySelector("#morse-input")
 const morseBtn = document.querySelector("#morse-submit-btn")
-const morseOutput = document.querySelector(".main__output-morse")
+const englishOutput = document.querySelector(".main__output-english")
 
 function getKeyByValue(object, value) {
     return Object.keys(object).find(key => object[key] === value);
@@ -31,7 +31,7 @@ export const translateMorseToEng = () => {
         englishStr += " "
     }
     console.log(englishStr);
-    morseOutput.innerHTML = englishStr
+    englishOutput.innerHTML = englishStr
     return;
 };
 
